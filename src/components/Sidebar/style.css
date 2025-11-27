@@ -1,0 +1,204 @@
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.left, .right {
+  height: 100vh;       
+  display: inline-block;
+  vertical-align: top;
+}
+
+li{
+list-style: none;    
+}
+
+.left {
+  width: 13%;           
+  background: #F8FAFC;  
+  color: rgb(0, 0, 0);
+}
+
+
+.right {
+  width: 87%;           
+  background: #ffffff; 
+color: rgb(0, 0, 0);
+}
+
+
+  .sidebar {
+  width: 230px;
+  height: 100vh;
+  background: #ffffff;
+  padding: 20px;
+  border-right: 1px solid #e5e7eb;
+  margin-left: 19px;
+}
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+    margin: 37px 0;
+  font-size: 16px;
+  cursor: pointer;
+  color: #444;
+  margin-left: 4px;
+}
+
+.menu li:hover {
+  background: #c2d5fa;
+  color:  #0EA5E9;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 12px;
+  color: #000000;
+
+}
+
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 180px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-icon {
+  font-size: 36px;
+  margin-right: 12px;
+  color: #000000;
+}
+
+.profile h4 {
+  margin: 0;
+}
+
+.profile p {
+  margin: 0;
+  color: gray;
+  font-size: 13px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.profile-role {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.exit-button {
+       
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+
+.exit-icon {
+  font-size: 20px;            
+  color: #000;                  
+}
+
+
+.setting{
+    margin-top: 12px;
+}
+.auction{
+color: rgb(48, 48, 233);
+  font-size: 20px;
+  margin-right: 12px;
+  color: #000000;
+
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.setting:hover {
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.setting .icon {
+  font-size: 20px;
+  margin-right: 12px;
+}
+.logo {
+  display: flex;           
+  align-items: center;     
+  font-size: 22px;
+  margin-bottom: 30px;
+  gap: 8px;                 
+}
+
+.auction {
+  font-size: 24px;          
+  color: #0EA5E9;           
+}
+
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: #ffffff;
+padding: 12px;
+}
+.add-btn {
+    width: 131px;
+    height: 40px;
+    background-color: #0EA5E9 ;
+    border: none;
+        margin-right: 30px;
+        margin-top: 3px;
+        color: white;
+   
+}
+
+.me-auto {
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.dropdown-custom {
+  background-color: #a7a4a4; 
+  color: rgb(0, 0, 0);            
+  border: none;              
+}
+
+.dropdown-custom:hover {
+  background-color: #0b7dc4;
+}
