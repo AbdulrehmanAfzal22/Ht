@@ -2,7 +2,7 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
-.left, .right {
+.left{
   height: 100vh;       
   display: inline-block;
   vertical-align: top;
@@ -168,7 +168,7 @@ color: rgb(48, 48, 233);
   color: #0EA5E9;           
 }
 
-
+/* 
 .top-section{
     display: flex;
     justify-content: space-between;
@@ -201,4 +201,4 @@ padding: 12px;
 
 .dropdown-custom:hover {
   background-color: #0b7dc4;
-}
+} */
